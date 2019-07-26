@@ -8,88 +8,86 @@
 
 <body>
     <form>
+        <fieldset>
+            <legend>Jūsų informacija</legend>
+            <table>
+                <tr>
+                    <td>Vardas:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Pavardė:</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
 
-            <fieldset>
-                <legend>Jūsų informacija</legend>
-                <table>
-                    <tr>
-                        <td>Vardas:</td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <td>Pavardė:</td>
-                        <td><input type="text"></td>
-                    </tr>
-                </table>
-            </fieldset>
-
-            <fieldset>
-                <legend>Klausimai</legend>
-                <table>
-                    <tr>
-                        <td>Kaip sužinojote apie mus?</td>
-                        <td>
-                            <select>
-                                <option>Pasirinkti</option>
-                                <option>Google</option>
-                                <option>Facebook</option>
-                                <option>Iš draugų</option>
-                            </select>
-                        </td>
-                    </tr>
-                 </table><br>
-                 <table>
-                    <tr>
-                        <td>Ar apsilankysite vėl?</td>
-                     </tr>
-                    <tr>
-                        <td>
-                        Taip <input type="radio" name="radio" value="yes">
-                        Ne <input type="radio" name="radio" value="no">
-                        Galbūt <input type="radio" name="radio" value="maybe">
-                        </td>
-    <!--
-                        Alternatyva:
-                        <td>
-                        Taip <input type="radio" name="radio" value="yes" checked>
-                        Ne <input type="radio" name="radio" value="no">
-                        Galbūt <input type="radio" name="radio" value="maybe">
-                        </td>
-    -->
-                     </tr>
-                </table><br>
-                <table>
-                    <tr>
-                        <td>Ką manote apie kursą?</td>
-                     </tr>
-                     <tr>
-                         <td><textarea rows="8" cols="80" autofocus placeholder="Rašykite viską ką galvojate"></textarea></td>
-                     </tr>
-                 </table><br>
-                 <table>
-                     <tr>
-                         <td>Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinęs</td>
-                     </tr>
-                  </table>
-                  <table>
-                     <tr>
-                         <td><input type="checkbox">C#</td>
-                         <td><input type="checkbox">Java</td>
-                         <td><input type="checkbox">PHP</td>
-                     </tr>
-                     <tr>
-                         <td><input type="checkbox">HTML</td>
-                         <td><input type="checkbox">CSS</td>
-                         <td><input type="checkbox">JavaScript</td>
-                     </tr>
-                     <tr>
-                         <td><input type="checkbox">Python</td>
-                         <td><input type="checkbox">Ruby</td>
-                     </tr>
-                 </table><br>
-                 <input type="submit" value="Siūsti">
-            </fieldset>
-
+        <fieldset>
+            <legend>Klausimai</legend>
+            <table>
+                <tr>
+                    <td>Kaip sužinojote apie mus?</td>
+                    <td>
+                        <select>
+                            <option>Pasirinkti</option>
+                            <option>Google</option>
+                            <option>Facebook</option>
+                            <option>Iš draugų</option>
+                        </select>
+                    </td>
+                </tr>
+             </table><br>
+             <table>
+                <tr>
+                    <td>Ar apsilankysite vėl?</td>
+                 </tr>
+                <tr>
+                    <td>
+                    Taip <input type="radio" name="radio" value="yes">
+                    Ne <input type="radio" name="radio" value="no">
+                    Galbūt <input type="radio" name="radio" value="maybe">
+                    </td>
+<!--
+                    Alternatyva:
+                    <td>
+                    Taip <input type="radio" name="radio" value="yes" checked>
+                    Ne <input type="radio" name="radio" value="no">
+                    Galbūt <input type="radio" name="radio" value="maybe">
+                    </td>
+-->
+                 </tr>
+            </table><br>
+            <table>
+                <tr>
+                    <td>Ką manote apie kursą?</td>
+                 </tr>
+                 <tr>
+                     <td><textarea rows="8" cols="80" autofocus placeholder="Rašykite viską ką galvojate"></textarea></td>
+                 </tr>
+             </table><br>
+             <table>
+                 <tr>
+                     <td>Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinęs</td>
+                 </tr>
+              </table>
+              <table>
+                 <tr>
+                     <td><input type="checkbox">C#</td>
+                     <td><input type="checkbox">Java</td>
+                     <td><input type="checkbox">PHP</td>
+                 </tr>
+                 <tr>
+                     <td><input type="checkbox">HTML</td>
+                     <td><input type="checkbox">CSS</td>
+                     <td><input type="checkbox">JavaScript</td>
+                 </tr>
+                 <tr>
+                     <td><input type="checkbox">Python</td>
+                     <td><input type="checkbox">Ruby</td>
+                 </tr>
+             </table><br>
+             <input type="submit" value="Siūsti">
+        </fieldset>
     </form>
 </body>
 </html>
