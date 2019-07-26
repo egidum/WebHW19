@@ -12,3 +12,7 @@ h2{
 p{
     font-family: sans-serif
 }
+
+.italic{
+    font-style: italic;
+}
