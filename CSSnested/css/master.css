@@ -1,0 +1,15 @@
+ol > li:nth-child(odd){
+   background-color: #eefcfa;
+}
+
+ul li:first-child{
+   color: #0000ff;
+}
+
+ul li:nth-child(1n+2){
+   color: #ff0000;
+}
+
+
+
+
