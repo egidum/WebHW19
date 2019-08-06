@@ -1,8 +1,8 @@
-let PirmasSkaicius = 10;
-let AntrasSkaicius = 20;
+let pirmasSkaicius = 10;
+let antrasSkaicius = 20;
 
 
-let skaiciuSuma = PirmasSkaicius + AntrasSkaicius;
+let skaiciuSuma = pirmasSkaicius + antrasSkaicius;
     console.log(skaiciuSuma);
     document.write(skaiciuSuma);
     alert(skaiciuSuma);
