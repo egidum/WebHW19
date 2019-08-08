@@ -10,13 +10,13 @@
 
 	<script>
 
-	   function isspausdintiVardaXKartu(x){
+	   function isspausdintiVardaXKartu(name, x){
             for(let i=0; i < x; i++){
             document.write(name + "<br>");
          }
        }
 
-       function isspausdintiVardaXKartu2(x){
+       function isspausdintiVardaXKartu2(name, x){
             let i = 0;
             while(i < x){
             document.write(name + "<br>");
@@ -25,10 +25,8 @@
 
        }
 
-       let name = "Egdijus";
-
-      isspausdintiVardaXKartu(3);
-      isspausdintiVardaXKartu2(3);
+      isspausdintiVardaXKartu("Tomas", 3);
+      isspausdintiVardaXKartu2("Darius", 3);
 
 	</script>
 
