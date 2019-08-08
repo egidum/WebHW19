@@ -10,15 +10,19 @@
 
 	<script>
 
-		function arJums18(){
-			let amzius = prompt("Įveskite amžių");
-			while(amzius < 18){
-				alert("Jums dar nėra 18! Turinys neprieinamas");
-			}
-			document.write("Sveiki prisijungę prie svetainės")
-		}
 
-		arJums18();
+         function arJums18(){
+            let amzius = prompt("Įveskite amžių");
+            if(amzius >= 18){
+               document.write("Sveiki prisijungę prie svetainės");
+            }
+            else{
+               alert("Jums dar nėra 18! Turinys neprieinamas");
+            }
+
+         }
+
+		 arJums18();
 
 	</script>
 </body>
