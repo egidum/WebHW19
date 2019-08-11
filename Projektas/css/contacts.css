@@ -1,0 +1,159 @@
+main{
+	height: auto;
+    padding-bottom: 150px ;
+    padding-top: 150px ;
+	background-color: #ddd;
+}
+
+/* === form / contacts === */
+.form-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #ddd;
+	margin-top: 0;
+	height: auto;
+}
+
+.form-box{
+	width: 550px;
+	height: auto;
+	justify-content: space-around;
+}
+
+.form-row{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.form-title h2, .form-title h3{
+    font-family: "Verdana", Geneva, sans-serif;
+	font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.form-title p{
+    font-family: "Verdana", Geneva, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	margin: 0;
+	line-height: 1.7;
+}
+
+.form-title a{
+	text-decoration:none;
+	color: #b9670f !important;
+	line-height: 1.7;
+}
+
+.form-title a:hover{
+	color: #00a8db !important;
+}
+
+.form-line{
+	display: block;
+    border-top: 2px solid #B9670F !important;
+	padding: 15px 0;
+}
+
+.form-fname, .form-lname,
+.form-email, .form-phone{
+    width: 240px;
+    height: 30px;
+    padding: 10px;
+}
+
+.form-fname, .form-email{
+	margin-right: 16px;
+}
+
+
+.form-subject{
+    width: 528px;
+    height: 30px;
+    padding: 10px;
+}
+
+textarea{
+    width: 530px;
+    height: 150px;
+    padding: 10px;
+}
+
+.button{
+    width: 150px;
+    height: 45px;
+    background: #B9670F !important;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+
+.button, input, textarea {
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+    /* ==/ Responsive -  /== */
+
+@media only screen and (max-width: 991px){
+	.form-box{
+		width: 500px;
+	}
+
+	.form-fname, .form-lname,
+	.form-email, .form-phone{
+		width: 480px;
+		margin-bottom: 20px;
+	}
+	.form-subject{
+		width: 480px;
+	}
+
+	textarea{
+		width: 480px;
+	}
+
+	iframe{
+		width: 500px;
+		height: 400px;
+	}
+}
+
+
+@media only screen and (max-width: 599px){
+	.form-box{
+		width: 300px;
+	}
+
+	.form-fname, .form-lname,
+	.form-email, .form-phone{
+		width: 280px;
+		margin-bottom: 20px;
+	}
+	.form-subject{
+		width: 280px;
+	}
+
+	textarea{
+		width: 280px;
+	}
+
+	iframe{
+		width: 300px;
+		height: 300px;
+	}
+
+}
+
+
+
+
+
+
+
